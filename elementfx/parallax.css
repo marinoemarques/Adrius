@@ -1,0 +1,14 @@
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.95) 10%,rgba(0,0,0,0.5) 80%), url("desk.jpg");
+
+   height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
